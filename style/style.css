@@ -1,0 +1,143 @@
+/* === CSS RESET === */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+/* === End of CSS RESET === */  
+
+
+/*MY CSS*/
+body {
+	overflow: hidden;
+    color: white;
+    font-family: 'Seaweed Script', cursive;
+    background-color: black;
+    width: 100%vw;
+    height: 100%vh;}
+
+video{
+    position: fixed;
+    text-align: center;
+    left: 130px;
+    opacity: .6%;}
+
+img {
+    max-width: 100%;}
+
+header {
+    width: 100%vw;
+    height: 100%vh;}
+
+h1 {
+    font-size: 50px;
+    text-align: right;}
+
+p{
+    font-size: 32px;
+    text-align: right;}
+
+a {
+    color: beige;
+    text-decoration: none;}
+
+a:hover {
+    color: dimgray;}
+
+.title {
+    font-size: 50px; 
+    font-variant: small-caps;}
+
+.wrapper div {
+	position: absolute;
+    width: 1200px;
+    overflow: hidden;
+    text-align: center; 
+    margin: 0 auto;}
+
+.settings, nav {
+	position: fixed;
+	z-index: 9999999;
+	bottom: 0;}
+
+
+/*NAVIGATION*/
+nav {
+	left: 0px;
+    top: 0px;
+    height: 40px;
+    background-color:rgba(205, 205, 205, .8)}
+
+nav ul li {
+	float: left;
+    list-style: none;}
+
+nav a {
+    display: block;
+    text-decoration: none;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: none;
+	text-align: center;
+    color: white;}
+
+a:hover {
+    color: dimgray;}
+
+.sp-canvas {
+	display: none;}
+
+
+/*CONTENT*/
+.one {
+    top: 150px;
+    left:-800px;
+    width: 500px;}
+
+.two {
+    top: -75px;
+	left: 1200px;
+    max-width: 800px;
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    font-size: 40px;}
+
+.three {
+	top: 800px;
+	left: 850px;
+    max-width: 800px;
+    transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);}
+
+.four {
+	top: 1630px;
+	left: 1380px;
+	max-width: 800px;}
+
+.five {
+	left: 1980px;
+	top: 900px;
+	max-width: 800px;}
+
+.six  {
+    left: 2020px; 
+    top: -250px;
+    max-width: 800px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(90deg);}
+
+.seven {
+	left: 1230px;
+	top: -950px;
+	max-width: 600px;
+	transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);}
+
+.eight {
+	left: 210px;
+	top: -1020px;
+    max-width: 600px;}
+
